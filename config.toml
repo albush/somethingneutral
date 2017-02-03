@@ -1,4 +1,4 @@
-baseurl = "https://www.example.com"
+baseurl = "http://something.neutralimprov.com"
 title = "Something Neutral"
 theme = "vec"
 languageCode = "en-us"
