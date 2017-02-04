@@ -24,7 +24,7 @@ googleAnalytics = "UA-15275173-7"
 
   Avater = "http://drops.albush.com/sn-profile.png"
   SelfIntro = "Something Neutral Improv"
-  Email = "al@albush.com"
+  Email = "something@neutralimprov.com"
 
   #GithubID = "Your Github ID"
   TwitterID = "someneutral"
@@ -38,7 +38,7 @@ googleAnalytics = "UA-15275173-7"
         facebook        = "someneutral"
         facebook_admin  = "1554398007"  # This needs to be a page admin to get domain insights
         twitter     = "someneutral"
-        twitter_domain  = "albush.com" # This domain shows in twitter cards as "View on `twitter_domain`"
+        twitter_domain  = "something.neutralimprov.com" # This domain shows in twitter cards as "View on `twitter_domain`"
         #googleplus      = "+AlanBush"
         instagram       = "someneutral"
         # youtube     = "nozzleio"
