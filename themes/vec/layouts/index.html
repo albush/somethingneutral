@@ -34,13 +34,21 @@
         <a href="https://www.instagram.com/{{.}}" title="LinkedIn"><i class="fa fa-instagram" aria-hidden="true"></i></a>
         {{ end }}
 
+
+
       </figcaption>
     </figure>
     <p class="user-motivation">{{ .Site.Params.SelfIntro }}</p>
     <div>
         <h2>Our next show is {{ with .Permalink }}<a href="{{ . }}">{{ end }}{{ dateFormat "Mon Jan 2, 2006 at 3:04 PM" .Params.show_date }}</a></h2>
       {{end}}
+{{ partial "mailchimp.html" }}
+
+
     </div>
+
+
+
   </section>
 
 
