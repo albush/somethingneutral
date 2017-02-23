@@ -16,7 +16,7 @@ paginate = 15
     url = "/about"
 
 # Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = "UA-15275173-7"
+googleAnalytics = "UA-92545032-1"
 
 [params]
   Keywords = "Improv, comedy, improvisation, san antonio,"
