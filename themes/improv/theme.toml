@@ -1,0 +1,12 @@
+name = "Hugo Shows"
+license = "MIT"
+licenselink = "https://github.com/albush/hugo-shows/blob/master/license.md"
+description = "A Hugo site theme for live theatre shows landing pages. Originally based on VEC from Ivan Chou."
+homepage = "https://github.com/albush/hugo-shows"
+tags = ["minimal", "shows", "tickets",]
+features = ["tickets"]
+min_version = 0.18.1
+
+[author]
+    name = "Alan Bush"
+    homepage = "http://albush.com"

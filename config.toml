@@ -1,8 +1,99 @@
 baseurl = "http://something.neutralimprov.com"
 title = "Something Neutral"
-theme = "vec"
+theme = "hugo-multi-bootswatch"
 languageCode = "en-us"
 paginate = 15
+
+[permalinks]
+    # Optional. Change the permalink format for the 'post' content type.
+    # The format shown here is the same one Jekyll/Octopress uses by default.
+    post = "/blog/:year/:month/:day/:title/"
+
+[params]
+    # language code for your website
+    languagecode = "en-US"
+
+    # name of the site author; used in header meta information
+    author = "Something Neutral"
+
+    # copyright text; used in footer
+    copyright = "2017 ~ Something Neutral Improv"
+
+    # social links, used in footer, these must be full URLs.
+    twitter     = "https://twitter.com/someneutral"
+    facebook    = "https://www.facebook.com/someneutral"
+    instagram   = "https://www.instagram.com/someneutral/"
+
+    # show default summaries on the frontpage or not
+    use_summaries = false
+    description = "Monochromatic Character-Based Improv by Sturdy and Al. You help us create the characters, we help you discover their stories."
+
+    [params.social]
+          #github      = "albush"
+          facebook        = "someneutral"
+          facebook_admin  = "1554398007"  # This needs to be a page admin to get domain insights
+          twitter     = "someneutral"
+          twitter_domain  = "something.neutralimprov.com" # This domain shows in twitter cards as "View on `twitter_domain`"
+          #googleplus      = "+AlanBush"
+          instagram       = "someneutral"
+          # youtube     = "nozzleio"
+          #linkedin        = "adbush"
+        [params.authors]
+          [params.authors.alan]
+          name          = "Alan Bush"
+          thumbnail     = "http://2.gravatar.com/avatar/4b434a5f9b17613e7eae559726e31b99"
+          images        = [
+                          "http://drops.albush.com/bush_alan_04_small.jpg",
+                        ]
+          bio           = "Alan Bush is a Community Manager at Rackspace by day, a husband, daddy and comedian by night. Alan likes beer, coffee, puns and the Kansas City Royals. He dislikes writing about himself in the third person."
+          email         = "al@albush.com"
+            [params.authors.Alan.social]
+            name = "Alan Bush"
+            github      = "albush"
+            facebook        = "alan.bush"
+            facebook_admin  = "1554398007"  # This needs to be a page admin to get domain insights
+            twitter     = "alanbush"
+            twitter_domain  = "albush.com" # This domain shows in twitter cards as "View on `twitter_domain`"
+            googleplus      = "+AlanBush"
+            instagram       = "youcancallmealbush"
+            linkedin        = "adbush"
+
+
+# naming of the elements in your blog/site
+[params.strings]
+    # name of the link to the homepage
+    home_navbar_link = "Home"
+
+    # name of the link to the blog page
+    blog_navbar_link = "Blog"
+
+    # name of the header used in the post list page
+    posts_list_header = "Posts"
+
+    # used date format
+    date_format = '2006.01.02'
+
+[params.theme]
+    inverse = false     # indicating if the theme should use inversed colors
+    name = "yeti"   # name of the theme to use
+
+    # list of possible theme names that can be used
+    # name = "cerulean"
+    # name = "cosmo"
+    # name = "cyborg"
+    # name = "default"
+    # name = "flatly"
+    # name = "journal"
+    # name = "lumen"
+    # name = "paper"
+    # name = "readable"
+    # name = "sandstone"
+    # name = "simplex"
+    # name = "slate"
+    # name = "spacelab"
+    # name = "superhero"
+    # name = "united"
+    # name = "yeti"
 
 [menu]
   # Shown in the side menu.
@@ -17,48 +108,3 @@ paginate = 15
 
 # Enable analytics by entering your Google Analytics tracking ID
 googleAnalytics = "UA-92545032-1"
-
-[params]
-  Keywords = "Improv, comedy, improvisation, san antonio,"
-  Description = "Monochromatic Character-Based Improv by Sturdy and Al. You help us create the characters, we help you discover their stories."
-
-  Avater = "http://drops.albush.com/sn-profile.png"
-  SelfIntro = "Something Neutral Improv"
-  Email = "something@neutralimprov.com"
-
-  #GithubID = "Your Github ID"
-  TwitterID = "someneutral"
-  FacebookID = "someneutral"
-  #LinkedInID = "Your LinkedIn ID"
-  #GoogleplusID = "Your Googleplus ID"
-
-
-  [params.social]
-        #github      = "albush"
-        facebook        = "someneutral"
-        facebook_admin  = "1554398007"  # This needs to be a page admin to get domain insights
-        twitter     = "someneutral"
-        twitter_domain  = "something.neutralimprov.com" # This domain shows in twitter cards as "View on `twitter_domain`"
-        #googleplus      = "+AlanBush"
-        instagram       = "someneutral"
-        # youtube     = "nozzleio"
-        #linkedin        = "adbush"
-      [params.authors]
-        [params.authors.alan]
-        name          = "Alan Bush"
-        thumbnail     = "http://2.gravatar.com/avatar/4b434a5f9b17613e7eae559726e31b99"
-        images        = [
-                        "http://drops.albush.com/bush_alan_04_small.jpg",
-                      ]
-        bio           = "Alan Bush is a Community Manager at Rackspace by day, a husband, daddy and comedian by night. Alan likes beer, coffee, puns and the Kansas City Royals. He dislikes writing about himself in the third person."
-        email         = "al@albush.com"
-          [params.authors.Alan.social]
-          name = "Alan Bush"
-          github      = "albush"
-          facebook        = "alan.bush"
-          facebook_admin  = "1554398007"  # This needs to be a page admin to get domain insights
-          twitter     = "alanbush"
-          twitter_domain  = "albush.com" # This domain shows in twitter cards as "View on `twitter_domain`"
-          googleplus      = "+AlanBush"
-          instagram       = "youcancallmealbush"
-          linkedin        = "adbush"

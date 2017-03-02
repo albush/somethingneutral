@@ -59,6 +59,11 @@
 
   {{ partial "footer.html" . }}
 
+  <script src="{{ "js/highlight.min.js" | absURL }}"></script>
+  <script>
+    hljs.initHighlightingOnLoad();
+  </script>
+  {{ partial "analytics.html" . }}
 </body>
 
 </html>
