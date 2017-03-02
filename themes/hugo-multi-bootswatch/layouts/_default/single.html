@@ -1,0 +1,32 @@
+{{ partial "header.html" . }}
+<div class="container">
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+  <h2>{{.Title}} </h2>
+<h3>{{ dateFormat "Mon Jan 2, 2006 at 3:04 PM" .Params.show_date }}</a></h3>
+    <figure>
+      <img class="img-responsive" alt="{{.Params.Description | markdownify }}" src="{{ .Params.featured_image }}">
+
+    </figure>
+
+    <div id="description">
+
+<p>{{ with .Params.Description }}{{ . | markdownify }}{{ end }}</p>
+</div description>
+<div id="buttons">
+      <p><a target="_blank" class="btn btn-primary btn-lg" href="{{ .Params.tix }} " role="button">Buy Tickets</a> <a target="_blank" class="btn btn-primary btn-lg" href="{{ .Params.fb_event }} " role="button">Invite Friends</a></p>
+    </div buttons>
+    <div id="signup">
+{{ partial "mailchimp-single.html" }}
+</div>
+
+
+    <div class="col-md-8 col-md-offset-2">
+  </div row>
+</div container>
+
+
+  {{ partial "analytics.html" . }}
+</body>
+
+</html>

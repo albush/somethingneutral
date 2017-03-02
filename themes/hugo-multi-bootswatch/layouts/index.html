@@ -1,0 +1,41 @@
+{{ partial "header.html" . }}
+<div class="container">
+<div class="row">
+  <div class="col-md-8 col-md-offset-2">
+    <h3>{{ .Site.Params.description }}</h3>
+  </div>
+
+</div>
+
+
+<div class="row">
+  <div class="col-md-8 col-md-offset-2">
+<div class="jumbotron">
+  {{ range first 1 (where .Data.Pages "Type" "show")}}
+  <h2>Our next show is {{ with .Permalink }}<a href="{{ . }}">{{ end }}{{ dateFormat "Mon Jan 2, 2006 at 3:04 PM" .Params.show_date }}</a></h2>
+    <p><a target="_blank" class="btn btn-primary btn-lg" href="{{ .Params.tix }} " role="button">Buy Tickets</a> <a target="_blank" class="btn btn-primary btn-lg" href="{{ .Params.fb_event }} " role="button">Invite Friends</a></p>
+      <figure>
+        <img class="img-responsive" alt="{{.Params.Description | markdownify }}" src="{{ .Params.featured_image }}">
+
+      </figure>
+
+      <div>
+
+<p>{{ with .Params.Description }}{{ . | markdownify }}{{ end }}</p>
+
+
+        {{end}}
+  {{ partial "mailchimp.html" }}
+
+
+      </div>
+
+
+
+
+</div>
+</div>
+</div>
+</div>
+
+{{ partial "footer.html" . }}
