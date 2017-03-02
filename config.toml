@@ -68,7 +68,7 @@ paginate = 15
     blog_navbar_link = "Blog"
 
     # name of the header used in the post list page
-    posts_list_header = "Posts"
+    posts_list_header = "Shows"
 
     # used date format
     date_format = '2006.01.02'
@@ -98,11 +98,11 @@ paginate = 15
 [menu]
   # Shown in the side menu.
   [[menu.main]]
-    name = "shows"
+    name = "Shows"
     weight = 0
     url = "/shows"
   [[menu.main]]
-    name = "about"
+    name = "About"
     weight = 1
     url = "/about"
 
