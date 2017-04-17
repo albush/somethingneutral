@@ -15,4 +15,4 @@ You can call me Al. I've been performing improv for a lot longer than I'd like t
 
 ## Sturdy
 
-He's done some improv, and is pretty good at it. Until he sends me his bio, though, this is all he gets.
+Hi, I'm Sturdy. Al is making me write this. I've been performing in San Antonio for over three years now, beginning with ComedySportz San Antonio, Something Neutral, and most recently with improvised hip-hop trio The Trading 8's. When I'm not making shit up on stage, I'm making shit up at a steady job that affords me the opportunity to binge Rocket League and good beer. You can find me on Instagram [@sturdyshelf](https://www.instagram.com/sturdyshelf/). 
